@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ employe.nom }}{% endblock %}
+
+{% block body %}
+ <h1>{{ employe.nom }}</h1>
+ <p>{{ employe.salaire }}</p>
+ <p>{{ employe.email }}</p>
+ <hr>
+ <a href="/">Retour</a>
+{% endblock %}
